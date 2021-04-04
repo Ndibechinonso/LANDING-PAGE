@@ -1,3 +1,8 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   background-color: #eee;
 }
@@ -155,6 +160,7 @@ iframe {
   }
 }
 @media screen and (max-width: 840px) {
+
   .card {
     width: 300px;
     margin-bottom: 10px;
@@ -166,4 +172,22 @@ iframe {
     width: 100%;
     justify-content: space-around;
   }
+}
+@media screen and (max-width: 690px) {
+  body{background-color: red;}
+
+  .container{
+    padding-left: 10px !important;
+  }
+  .container .fa{
+    display: none;
+  }
+
+.offers {
+  min-width: 100vw;
+  margin-left: 0 !important;
+}
+.container h2{
+text-align: center;
+}
 }
